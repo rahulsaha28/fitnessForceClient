@@ -9,6 +9,6 @@
  
 
 
-[Live Site]()
-[Client Site](https://github.com/rahulsaha28/fitnessForceServer.git)
-[Server Site]()
+[Live Site](https://fitnessforce.netlify.app/)
+[Client Site](https://github.com/rahulsaha28/fitnessForceClient.git)
+[Server Site](https://github.com/rahulsaha28/fitnessForceServer.git)
