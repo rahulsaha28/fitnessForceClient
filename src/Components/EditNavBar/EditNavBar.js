@@ -19,13 +19,14 @@ const EditNavBar = () => {
         history.replace('/login');
     }
     return (
-        <nav className="navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
+                <span className="navbar-brand">Daily Task Management</span>
                 <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbar">
-                    <ul className="navbar-nav mb-2 ms-auto">
+                    <ul className="navbar-nav mb-2 ms-auto mb-lg-0">
                         {
                             user?.email ? (
                                 <>
